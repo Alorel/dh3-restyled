@@ -1,0 +1,8 @@
+$notification-img-size: 25px;
+
+#notification-area {
+  .img-50 {
+    height: $notification-img-size;
+    width: $notification-img-size;
+  }
+}

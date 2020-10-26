@@ -1,0 +1,14 @@
+table.table-craftables {
+  font-size: 14px;
+
+  > tbody > tr {
+    img {
+      max-height: $craft-table-img-size;
+      width: auto;
+    }
+
+    > td:nth-child(4) > br {
+      display: none;
+    }
+  }
+}

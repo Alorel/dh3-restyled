@@ -1,0 +1,13 @@
+{
+  "name": "dh3-restyled",
+  "version": "0.0.0",
+  "main": "index.js",
+  "author": "Arturas Molcanovas <a.molcanovas@gmail.com> (https://github.com/Alorel)",
+  "license": "MIT",
+  "scripts": {
+    "scss": "node-sass --indent-type space --output-style expanded --linefeed lf dh3-restyled.user.scss > dh3-restyled.user.css"
+  },
+  "dependencies": {
+    "node-sass": "^4.14.1"
+  }
+}

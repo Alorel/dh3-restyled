@@ -1,0 +1,20 @@
+@import './_vars';
+
+#top-bar-skills {
+  img.img-50 {
+    height: 36px;
+    width: 36px;
+  }
+
+  .not-table-top-main-skills-item tbody td:last-child > {
+    span:first-child, span:nth-child(2) {
+      font-size: 14px !important;
+    }
+  }
+
+  div & {
+    .xp-bar, .xp-bar-inner {
+      height: $xp-bar-height;
+    }
+  }
+}

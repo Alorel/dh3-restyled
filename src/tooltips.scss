@@ -1,0 +1,13 @@
+.tooltip {
+  > h2 {
+    margin-bottom: 0;
+  }
+
+  > div:first-child + br {
+    display: none;
+  }
+
+  > .sell-tooltip-container {
+    margin-top: 0;
+  }
+}

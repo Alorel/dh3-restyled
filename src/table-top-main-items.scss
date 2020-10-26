@@ -1,0 +1,21 @@
+$topmain-img-size: 32px;
+
+#table-top-main-items {
+  > tbody > tr:first-child {
+
+    > td > div {
+      > img + *, span > img + *, > table > tbody > tr > td:nth-child(2) {
+        font-size: 16px !important;
+      }
+    }
+  }
+
+  img.img-50 {
+    width: $topmain-img-size;
+    height: $topmain-img-size;
+  }
+}
+
+#span-oil-in-out-label {
+  font-size: 12px !important;
+}

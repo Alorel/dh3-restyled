@@ -1,0 +1,29 @@
+#navigation-area-buttons > .navigate-button {
+  position: relative;
+
+  > img.img-50 {
+    width: 30px;
+    height: 30px;
+  }
+
+  > br {
+    display: none;
+  }
+
+  &:hover {
+    filter: none;
+
+    > div:last-child {
+      display: block;
+    }
+  }
+
+  > div:last-child {
+    position: absolute;
+    background: $hover-background;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: none;
+  }
+}
