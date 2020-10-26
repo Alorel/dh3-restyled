@@ -4,8 +4,8 @@
 @version      0.1.0
 @license      GPL-3.0
 @preprocessor default
-@homepageURL https://foo
-@updateURL https://foo
+@homepageURL https://github.com/Alorel/dh3-restyled
+@updateURL https://github.com/Alorel/dh3-restyled/raw/master/dh3-restyled.user.css
 ==/UserStyle== */
 @-moz-document domain("dh3.diamondhunt.co") {
   #top-bar-skills img.img-50 {
