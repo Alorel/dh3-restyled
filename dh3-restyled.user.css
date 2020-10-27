@@ -1,11 +1,11 @@
 /* ==UserStyle==
 @name         DH3-restyled
 @namespace    org.alorel.dh3-restyled
-@version      0.1.0
+@version      0.2.0
 @license      GPL-3.0
 @preprocessor default
-@homepageURL https://github.com/Alorel/dh3-restyled
-@updateURL https://github.com/Alorel/dh3-restyled/raw/master/dh3-restyled.user.css
+@homepageURL  https://github.com/Alorel/dh3-restyled
+@updateURL    https://github.com/Alorel/dh3-restyled/raw/master/dh3-restyled.user.css
 ==/UserStyle== */
 @-moz-document domain("dh3.diamondhunt.co") {
   #top-bar-skills img.img-50 {
@@ -130,5 +130,12 @@
   }
   .tooltip > .sell-tooltip-container {
     margin-top: 0;
+  }
+  #navigation-right-farming .item-box {
+    transition: all .1s;
+  }
+  #navigation-right-farming .item-box[style*="orange"] {
+    border: 1px solid grey !important;
+    box-shadow: 0 0 5px 2px #FFE48C;
   }
 }

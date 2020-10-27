@@ -1,0 +1,8 @@
+#navigation-right-farming .item-box {
+  transition: all .1s;
+
+  &[style*="orange"] {
+    border: 1px solid grey !important;
+    box-shadow: 0 0 5px 2px #FFE48C;
+  }
+}
